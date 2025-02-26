@@ -10,7 +10,7 @@
 # 3. I created a single read.me file as .md
 # World Values Survey (WVS) Dataset - Subset
 
-## 1. Key Information
+## 1. Key Info on the Dataset
 - **Dataset Name**: WVS Subset
 - **Source**: World Values Survey (Wave 7, 2017-2022)
 - **Total Rows**: 97,220
@@ -20,7 +20,7 @@
   - 2 float columns (weights, scores)
   - 5 object columns (country codes, identifiers)
 
-## 2. Dataset Location
+## 2. Dataset Location, Path
 - **File Path**: `/mnt/data/WVS_subset.csv`
 
 ## 3. Variables Description
@@ -28,17 +28,19 @@ The dataset includes demographic information, values, beliefs, and opinions on s
 
 | Variable Name   | Description |
 |----------------|-------------|
-| `B_COUNTRY`    | Country code (numeric) |
-| `B_COUNTRY_ALPHA` | Country code (Alpha-3 format) |
-| `A_YEAR`       | Year of the survey |
-| `A_WAVE`       | Survey wave number |
-| `W_WEIGHT`     | Weighting factor for responses |
-| `Q290`         | Racial/Ethnic belonging |
-| `Q57`          | Trust in people (binary: trust/distrust) |
-| `Q46`          | Self-reported happiness level |
-| `Q49`          | Life satisfaction score (scale 1-10) |
-| `Q50`          | Household financial satisfaction |
+| Q48            | How much freedom of choice and control (on a scale from -5 to 10) |
+| Q49            | Satisfaction with your life (on a scale from 1 to 10) |
+| Q260           | Sex (on a scale from 1, 2, -2, -4, -5) |
+| Q261           | Year of birth (on a scale from -5 to -1) |
+| Q262           | Age (on a scale from -5 to -1) |
+| Q275           | Highest educational level: Respondent [ISCED 2011] (on a scale from -5 to -1 and from 1 to 8) |
+| Q288           | Scale of incomes (on a scale from -5 to -1 and from 1 to 10)|
+| Q289CS         | Religious denomination - detailed list (Country-specific list of codes in Annex) |
+| Q50            | Satisfaction with financial situation of household (on a scale from -5 to -1 and from 1 to 10) |
+| Q46            | Feeling of happiness (on a scale from -5 to -1 and from 1 to 4)|
+| Q57            | Most people can be trusted (on a scale from -5 to -1 and from 1 to 2)|
 
 ## 4. A table with descriptive statistics for 5 selected most important variables
 <img width="557" alt="Screenshot 2025-02-26 at 22 13 30" src="https://github.com/user-attachments/assets/b4579e64-7248-43de-8b9a-c0a7d9e88683" />
+<img width="524" alt="Screenshot 2025-02-26 at 22 16 06" src="https://github.com/user-attachments/assets/7881b11c-3642-4ce5-8128-58fdfeaa07b6" />
 
