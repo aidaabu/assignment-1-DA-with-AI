@@ -2,10 +2,10 @@
 # 1. Research question: Is there a correlation between perceived freedom of choice (Q48) and life satisfaction (Q49)?
 
 # 2. The most relevant variables
-- Q48 - Perceived freedom of choice and control (Main independent variable);
-- Q49 - Life satisfaction (Main dependent variable);
-- Demographic variables: Q260 - Age (Age may influence both freedom of choice and life satisfaction); Q261 - Gender (Differences in gender roles could affect perceptions of control and satisfaction); Q262 -   Marital status (Being married or single might affect perceived control over life and happiness levels); Q275 - Education level (Higher education may lead to greater perceived control and satisfaction); Q288 - Income scale (Financial status could impact both perceived choice and happiness)
-- Other influencing factors: Q50 - Satisfaction with financial situation (Financial stability may impact both variables directly); Q46 - Happiness (General happiness might mediate the relationship between perceived freedom and life satisfaction).
+- Q48 - How much freedom of choice and control (Main independent variable);
+- Q49 - Satisfaction with your life (Main dependent variable);
+- **Demographic variables**: Q260 - Sex; Q261 - Year of birth; Q262 -  Age; Q275 - Highest educational level: Respondent [ISCED 2011]; Q288 - Scale of incomes; Q289CS - Religious denomination - detailed list. 
+- **Other influencing factors**: Q50 - Satisfaction with financial situation of household; Q46 - Feeling of happiness, Q57 - Most people can be trusted.
 
 # 3. I created a single read.me file as .md
 # World Values Survey (WVS) Dataset - Subset
@@ -39,4 +39,6 @@ The dataset includes demographic information, values, beliefs, and opinions on s
 | `Q49`          | Life satisfaction score (scale 1-10) |
 | `Q50`          | Household financial satisfaction |
 
+## 4. A table with descriptive statistics for 5 selected most important variables
+<img width="557" alt="Screenshot 2025-02-26 at 22 13 30" src="https://github.com/user-attachments/assets/b4579e64-7248-43de-8b9a-c0a7d9e88683" />
 
