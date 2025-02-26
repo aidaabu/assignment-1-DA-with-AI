@@ -22,8 +22,8 @@
   - 5 object columns (country codes, identifiers)
 
 ## 2. Dataset Location, Path
-- **File Path**: 'import delimited "C:\Users\Abuova_Aida\Downloads\WVS_subset.csv", clear'
-                 'save "C:\Users\Abuova_Aida\Downloads\WVS_subset.dta", replace'
+- **File Path**: 'import delimited "C:\Users\Abuova_Aida\Downloads\WVS_subset.csv", clear
+- 'save "C:\Users\Abuova_Aida\Downloads\WVS_subset.dta", replace'
 
 ## 3. Variables Description
 The dataset includes demographic information, values, beliefs, and opinions on social, economic, and political topics. Some key variables:
