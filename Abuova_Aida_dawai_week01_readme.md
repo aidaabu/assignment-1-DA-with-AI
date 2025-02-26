@@ -1,5 +1,6 @@
 ## assignment-1-DA-with-AI
-# 1. Research question: Is there a correlation between perceived freedom of choice (Q48) and life satisfaction (Q49)?
+# 1. Research question: 
+## Is there a correlation between perceived freedom of choice (Q48) and life satisfaction (Q49)?
 
 # 2. The most relevant variables
 - Q48 - How much freedom of choice and control (Main independent variable);
