@@ -22,7 +22,8 @@
   - 5 object columns (country codes, identifiers)
 
 ## 2. Dataset Location, Path
-- **File Path**: `/mnt/data/WVS_subset.csv`
+- **File Path**: 'import delimited "C:\Users\Abuova_Aida\Downloads\WVS_subset.csv", clear'
+                 'save "C:\Users\Abuova_Aida\Downloads\WVS_subset.dta", replace'
 
 ## 3. Variables Description
 The dataset includes demographic information, values, beliefs, and opinions on social, economic, and political topics. Some key variables:
@@ -42,6 +43,7 @@ The dataset includes demographic information, values, beliefs, and opinions on s
 | Q57            | Most people can be trusted (on a scale from -5 to -1 and from 1 to 2)|
 
 ## 4. A table with descriptive statistics for 5 selected most important variables
+summarize 
 <img width="557" alt="Screenshot 2025-02-26 at 22 13 30" src="https://github.com/user-attachments/assets/b4579e64-7248-43de-8b9a-c0a7d9e88683" />
 <img width="524" alt="Screenshot 2025-02-26 at 22 16 06" src="https://github.com/user-attachments/assets/7881b11c-3642-4ce5-8128-58fdfeaa07b6" />
 
